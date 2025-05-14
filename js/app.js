@@ -1,4 +1,3 @@
-// Éléments du DOM
 const welcomeScreen = document.getElementById('welcome-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultScreen = document.getElementById('result-screen');
@@ -15,11 +14,11 @@ const progressBar = document.getElementById('progress-bar');
 const scoreElement = document.getElementById('score');
 const answersSummary = document.getElementById('answers-summary');
 
-// Initialisation des événements
+
 function initEvents() {
     startButton.addEventListener('click', startQuiz);
     prevButton.addEventListener('click', goToPreviousQuestion);
     nextButton.addEventListener('click', goToNextQuestion);
     submitButton.addEventListener('click', submitQuiz);
     restartButton.addEventListener('click', restartQuiz);
-}
+}Ò
